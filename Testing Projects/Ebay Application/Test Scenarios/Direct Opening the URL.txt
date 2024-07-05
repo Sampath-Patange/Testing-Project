@@ -1,0 +1,13 @@
+Entering test URL into browser
+================================
+	Positive Scenarios
+       ---------------------
+	1. check that when user enter test URL into browser welcome page should be displayed.
+	2. check that when user enter the URL How much time it is taking to load the welcome page.
+	3. check that when user enter test URL and click/press on enter, then it should display welcome page.
+
+
+	Negative Scenarios
+       ---------------------
+	1. check that when user enter wrong URL into browser our website should not be displayed.
+	2. check that when user enter URL without turn-on internet , it should give blank page or 404 error page.

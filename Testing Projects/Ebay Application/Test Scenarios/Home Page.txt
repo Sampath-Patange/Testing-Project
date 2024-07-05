@@ -1,0 +1,14 @@
+Home Page Positive Scenarios
+=============================
+	1. check that user is able to search the product on search textfield or not.
+	2. check that user is searched products are displaying on the webpage or not.
+	3. check that user can able set the category and able to search or not.
+ 	4. check that user is able to click the search button or not.
+	5. check that user after clicking on saved option in homepage is able to get all the saved products or not.
+	6. check that user can add products to cart or not.
+	7. check that user added all the products are displayed in cart or not.
+	8. check that user is not able to purchase a product, if the user is not created/login into thier account.
+	9. check that user is able to click on electronic's option, then Electronics page should be displayed.
+	10. check that user will click on profile option,thier personal account page should be displayed.
+	11. check that user is able to purchase a product or not.
+	12. check that  

@@ -1,0 +1,22 @@
+Login page Positive Scenarios
+==============================
+	1. enter valid username and password and click on login button and check that user is able to login or not.
+	2. enter valid username and password and press ENTER button in keyboard and check that user is able to login or not.
+	3. enter valid username and password and click on login button and homepage should be displayed with "login successfull" message.
+	4. check that when user click on login page link , login page should be displayed.
+	5. check that login page consists of username and password texfields and login button.
+	6. check that user is able to login through google account.
+	7. check that user is able to login through facebook account.
+	8. check that in login page different kinds of login options are present or not.
+
+Login page Positive Scenarios
+==============================
+	1. enter invalid username and password and click on login button and check that user is able to login or not.
+	2. enter valid username and password and check that user is able to login or not.
+	3. enter valid username and invalid password and check user is able to login or not.
+	4. enter invalid username and valid password and check user is able to login or not.
+	5. do not enter data into textfields and check user is able to login or not.
+	6. enter email and do not enter password and check user is able to login or not.
+	7. enter password and do not enter email and check user is able to login or not.
+	8. check that if do not enter data into one of the textfield it should give warning message.
+

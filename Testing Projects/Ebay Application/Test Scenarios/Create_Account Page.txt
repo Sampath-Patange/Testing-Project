@@ -1,0 +1,138 @@
+
+SIGN-UP PAGE FOR PERSONAL Accounts --------------> (85 Scenarios)
+====================================
+  1-- First Name TextField Positive Scenarios
+ -------------------------------------------
+        1. check that first name text field should be present in the UI/signup page.
+        2. check that first name text field should accept data entered by user.
+        3. check that first name text field should contain placeholder stating that "first name" 
+        4. check that if do not enter data into first name text field it should give warning message.
+        5. check that first name text field should only accept Alphabets.
+        6. check that once after clicking on first name text field it should be highlighted.
+        7. check that first name text field should accept more than 2 Alphabets and less than 50 Alphabets. 
+	8. check that user entered data should be visible to user.
+   
+        First Name TextField Negative Scenarios
+       ------------------------------------------
+        1. check that first name text field shouldn't have Pre-Data/Default data.
+        2. check that first name text field shouldn't accept special characters.
+        3. check that first name text field shouldn't accept Numbers.
+        4. check that first name text field shouldn't accept less than 2 Alphabets and more than 50 Alphabets.
+        5. check that after clicking on first name text field plceholder shouldn't display.
+
+
+  2-- last Name TextField Positive Scenarios
+ -----------------------------------------------
+        1. check that last name text field should be present in the UI/signup page.
+        2. check that last name text field should accept data entered by user.
+        3. check that last name text field should contain placeholder stating that last name" 
+        4. check that if do not enter data into last name text field it should give warning message.
+        5. check that last name text field should only accept Alphabets.
+        6. check that once after clicking on last name text field it should be highlighted.
+        7. check that last name text field should accept more than 2 Alphabets and less than 50 Alphabets. 
+	8. check that user entered data should be visible to user.
+
+       last Name TextField Negative Scenarios
+      -----------------------------------------
+        1. check that first name text field shouldn't have Pre-Data/Default data.
+        2. check that first name text field shouldn't accept special characters.
+        3. check that first name text field shouldn't accept Numbers.
+        4. check that first name text field shouldn't accept less than 2 Alphabets and more than 50 Alphabets.
+        5. check that after clicking on first name text field plceholder shouldn't display.
+
+  3-- Email TextField Positive Scenarios
+ ------------------------------------------
+        1. check that Email text field should be present in the UI/signup page.
+        2. check that Email text field should accept data entered by user.
+        3. check that Email text field should contain placeholder stating that "Email Address" 
+        4. check that if do not enter data into Email text field it should give warning message.
+        5. check that Email text field should accept AlphaNumeric Values.
+        6. check that once after clicking on Email text field it should be highlighted.
+        7. check that Email text field should accept more than 8 AlphaNumeric Values and less than 50 AlphaNumeric Values.
+	8. check that Email text field should and must contain '@gmail.com' as last characters of email.
+	9. check that user entered data should be visible to user.
+
+      Email TextField Negative Scenarios
+     -------------------------------------
+        1. check that Email text field shouldn't have Pre-Data/Default data.
+        2. check that Email text field shouldn't accept duplicate email address.
+        3. check that Email text field shouldn't starts with AlphaNumeric Values.
+        4. check that Email text field shouldn't accept less than 2 AlphaNumeric Values and more than 50 AlphaNumeric Values.
+        5. check that after clicking on Email text field plceholder shouldn't display.
+
+  4-- Password TextField Positive Scenarios
+ ---------------------------------------------
+        1. check that Password  text field should be present in the UI/signup page.
+        2. check that Password text field should accept data entered by user.
+        3. check that Password text field should contain placeholder stating that "Password " 
+        4. check that if do not enter data into Password text field it should give warning message.
+        5. check that Email text field should accept AlphaNumeric Values.
+        6. check that once after clicking on Password text field it should be highlighted.
+        7. check that Password text field should accept more than 8 AlphaNumeric Values and less than 50 AlphaNumeric Values.
+	8. check that Password text field should and must contain one UpperCase Letter in the Password.
+	9. check that Password text field should and must contain one LowerCase Letter in the Password.
+	10. check that Password text field should and must contain one Special Character and Number in the Password.
+	11. check that user entered data should be visible to user.
+	12. check that password should have eye button to see and hide data inside password text field.
+	13. check that eye button should be enabled and it should be hide the data first time.
+	14. check that password tex field should give rules of strong password.
+
+      Password TextField Negative Scenarios
+     ----------------------------------------
+        1. check that Password text field shouldn't have Pre-Data/Default data.
+        2. check that Password text field shouldn't accept duplicate passwords.
+        3. check that Password text field shouldn't give suggestions.
+        4. check that Password text field shouldn't accept less than 2 AlphaNumeric Values and more than 50 AlphaNumeric Values.
+        5. check that after clicking on Password text field plceholder shouldn't display.
+
+  5-- Create Account Button Positive Scenarios
+ -----------------------------------------------
+	1. check that create account button is enabled or not.
+	2. check that create account button should be disabled until all the textfields are filled.
+	3. check that after hovering on create account button the cursor should a hand type.
+	4. check that create account button should be clickable after entering all textfield.
+	5. check that create account button should be disabled if one of the textfield is not filled.
+	6. check that create account button should contain text as "create account".
+      
+       Create Account Button Negative Scenarios
+      -------------------------------------------
+	1. check that create account button shouldn't be enabled at first time of entering to web page.
+	2. check that create account button shouldn't at the upside of the form , it should be after all the textfields.
+
+
+Create Personal Account Page
+=============================
+        Positive Scenarios
+       ----------------------
+	1. enter firstName text field,lastName text field,Email text field,Password text field and check the create account button is able to click or not
+	2. enter all the text fields and click on create account button and homepage should be displayed.
+	3. check that after creating account , message should be displayed as "account is successfully created".
+	4. check that one of the fields are incorrect , it should give warning message.
+	5. check that all the textfields should and must contain placeholder stating  that which type of data should be entered.
+	6. check that account should be selected personal as "default".
+	7. check that enter all textfields and press on "enter" key on keyboard and check homepage should be displayed.
+	8. enter all the text fields and do not click on create account button and check that user should be in the same page.  
+	
+        Negative Scenarios
+       ---------------------
+	1. enter inavlid Email and check that user is able to navigate to homepage or not.
+	2. do not enter the data into textfields and try to click on create account button and user shouldn't able to navigate to homepage.
+  
+Create Business Account Page
+=============================
+	Positive Scenarios
+       ---------------------
+	1. enter Business Name text field,Business Email text field,Password text field and check the create account button is able to click or not
+	2. enter all the text fields and click on create account button and homepage should be displayed.
+	3. check that after creating account , message should be displayed as "account is successfully created".
+	4. check that one of the fields are incorrect , it should give warning message.
+	5. check that all the textfields should and must contain placeholder stating  that which type of data should be entered.
+	6. check that account should be selected Business as "Optional".
+	7. check that enter all textfields and press on "enter" key on keyboard and check homepage should be displayed.
+	8. enter all the text fields and do not click on create account button and check that user should be in the same page.
+	9. enter all the fields and do not click on check box and create account button should be disabled.
+
+        Negative Scenarios
+       ---------------------
+	1. enter inavlid Email and check that user is able to navigate to homepage or not.
+	2. do not enter the data into textfields and try to click on create account button and user shouldn't able to navigate to homepage. 
